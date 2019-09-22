@@ -2,6 +2,8 @@
 
 /* El CSS siguiente esta pensando primero para moviles y luego para 
    Escritiorio*/
+
+/*Los siguientes datos se van a aplicar a todo, se calcula el font size dependiendo de la altura de la ventan. */
 *, ::before, ::after {
     margin: 0;
     padding: 0;
@@ -18,9 +20,16 @@ body {
     font-weight: 400;
 }
 
+/*Modificando header, display es flex para poder tener el nav y logo en la misma linea. Space between para que 
+nav este hasta el final.*/
 .header {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+}
+
+/*Agregando hover a menu*/
+nav li a:hover{
+color: red;
 }
 
 .src-only {
@@ -31,6 +40,7 @@ body {
     display: none;
 }
 
+/*Anadiendo propiedades a todos los parrafos*/
 p{
     font-size: 0.75em;
     padding: 1rem;
@@ -42,6 +52,7 @@ p{
     margin: 1em;
 }
 
+/*Estilo del menu*/
 .options {
     color: inherit;
     text-decoration: none;
@@ -55,14 +66,16 @@ p{
     align-items: flex-start;
 
 }
+
 .options i:last-child {
     font-size: 1.6rem;
 }
-
+/*Tamano de la imagen principal*/
 /* Big area */
 .big-hero img {
     width: 150px;
 }
+
 
 .big-hero h2 {
     font-size: 1.875em;
@@ -78,6 +91,7 @@ p{
 }
 
 /* Social links*/
+
 .social-links{
     list-style: none;
     padding: 3px;
@@ -91,7 +105,9 @@ p{
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
-    font-size: 2.5em;
+    font-size: 4em;
+    padding: 5px;
+
 }
 
 
@@ -156,6 +172,10 @@ p{
 
 .about{
     margin-top: 2em;
+}
+
+.bio-info{
+    display: flex;
 }
 
 .about h2 {
