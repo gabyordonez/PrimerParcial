@@ -76,7 +76,7 @@ p{
     width: 150px;
 }
 
-
+/*Estilo de seccion*/
 .big-hero h2 {
     font-size: 1.875em;
     font-weight: 700;
@@ -91,7 +91,7 @@ p{
 }
 
 /* Social links*/
-
+/*Diseno de imagenes github y twitter*/
 .social-links{
     list-style: none;
     padding: 3px;
@@ -102,6 +102,7 @@ p{
 
 }
 
+/*Diseno de links de imagenes*/
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
@@ -115,7 +116,7 @@ p{
     background-color: #0AC693; 
 }
 
-
+/*Diseno de publicaciones*/
 .post {
     padding: 1em;
     margin-bottom: -2px;
@@ -197,6 +198,7 @@ p{
     letter-spacing: 2px;
 }
 
+/*Diseno de form*/
 .contact {
     display: flex;
     flex-direction: column;
@@ -341,5 +343,9 @@ footer .social-links {
         width: 80%;
         margin: 0 auto;
         max-width: 1440px;
+    }
+
+    .contact{
+        display: flex;
     }
 }
